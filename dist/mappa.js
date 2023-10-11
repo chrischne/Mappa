@@ -1312,10 +1312,12 @@ var MapboxGL = function (_TileMap) {
   function MapboxGL(options) {
     _classCallCheck(this, MapboxGL);
 
+    // this.scriptSrc = 'https://api.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.js';
+    // this.styleSrc = 'https://api.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.css';
     var _this = _possibleConstructorReturn(this, (MapboxGL.__proto__ || Object.getPrototypeOf(MapboxGL)).call(this, options));
 
-    _this.scriptSrc = 'https://api.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.js';
-    _this.styleSrc = 'https://api.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.css';
+    _this.scriptSrc = 'https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js';
+    _this.styleSrc = 'https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css';
     _this.ready = false;
     if (!_this.options.key) {
       MapboxGL.messages().key();

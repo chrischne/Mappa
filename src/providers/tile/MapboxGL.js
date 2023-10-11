@@ -8,8 +8,10 @@ import TileMap from './TileMap';
 class MapboxGL extends TileMap {
   constructor(options) {
     super(options);
-    this.scriptSrc = 'https://api.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.js';
-    this.styleSrc = 'https://api.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.css';
+    // this.scriptSrc = 'https://api.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.js';
+    // this.styleSrc = 'https://api.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.css';
+    this.scriptSrc = 'https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js';
+    this.styleSrc = 'https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css';
     this.ready = false;
     if (!this.options.key) {
       MapboxGL.messages().key();

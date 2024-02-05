@@ -1,4 +1,4 @@
-Added support for mapbox gl js version 2.15.0
+In this fork of Mappa, added support for mapbox gl js version 2.15.0
 
 ![mappa](website/static/img/logo_small.png)
 

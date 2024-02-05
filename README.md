@@ -1,3 +1,5 @@
+Added support for mapbox gl js version 2.15.0
+
 ![mappa](website/static/img/logo_small.png)
 
 [Mappa](https://mappa.js.org/)
